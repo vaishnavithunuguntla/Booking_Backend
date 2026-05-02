@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-&sdi9p75$z52avz5!y3c8dr12)#iaetm@99qrk_8(a@&p^r5*6'
 
-DEBUG = False   # Turn off debug in production
+DEBUG = True   # Turn off debug in production
 
 ALLOWED_HOSTS = [
     "booking-backend-3zpl.onrender.com",   # your Render domain
