@@ -1,7 +1,3 @@
-"""
-Django settings for Booking_Backend project.
-"""
-
 from pathlib import Path
 import os
 from django.contrib.auth.hashers import make_password
@@ -13,8 +9,7 @@ SECRET_KEY = 'django-insecure-&sdi9p75$z52avz5!y3c8dr12)#iaetm@99qrk_8(a@&p^r5*6
 DEBUG = False   # Turn off debug in production
 
 ALLOWED_HOSTS = [
-    "booking-app-backend-4vb9.onrender.com",
-    "booking-app-backend-2.onrender.com",
+    "booking-backend-3zpl.onrender.com",   # your Render domain
     "localhost",
     "127.0.0.1",
 ]
@@ -113,6 +108,7 @@ REST_FRAMEWORK = {
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://booking-backend-3zpl.onrender.com",  # add Render domain
 ]
 
 CORS_ALLOWED_ORIGINS = [
